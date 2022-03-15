@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+}
+#canvas_area{
+    display: inline-block;
+    width: 70%;
+    height: 500px;
+}
+#input_area{
+    display: inline-block;
+    background-color: red;
+    width: 25%;
+    height: 500px;
+    
+}

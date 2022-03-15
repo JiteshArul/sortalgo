@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar"><h1 class="heading">Sort Algorithm Visualizer</h1></nav>
+    <div id="canvas_area"><canvas class="canvas"></canvas></div>
+    <div id="input_area">
+        No. of Sample Values<input type="range" name="samples" id="samples" class="samples">
+        <br>
+        Animation Speed <input type="range" name="speed" id="speed" class="speed">
+        <br>
+        <select name="algo" id="algo">
+            <option value="simple" name="algo" class="simple">Simple</option>
+            <option value="bubble" name="algo" class="bubble">Bubble</option>
+        </select>
+        <br>
+        <input type="radio" name="align" id="center">Center
+        <input type="radio" name="align" id="left">Left
+        <input type="radio" name="align" id="right">Right
+        <br>
+        <input type="button" value="Sort" class="sortbtn">
+        <input type="button" value="Reset" class="resetbtn">
+    </div>
+    
+</body>
+</html>
